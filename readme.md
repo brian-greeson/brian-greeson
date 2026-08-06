@@ -5,7 +5,8 @@ and reliable data-processing systems.
 
 ## Featured project
 
-### [GlideHero](https://github.com/brian-greeson/glide-hero-public)
+### [![Open GlideHero](https://img.shields.io/badge/Open_GlideHero-glidehero.com-18a6a6?style=for-the-badge)](https://glidehero.com)
+
 
 A geospatial exploration game that transforms paraglider GPS tracks
 into territory, achievements, flight replay, and friendly competition.
