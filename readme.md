@@ -1,4 +1,4 @@
-![Brian Greeson — full-stack engineer building software for the real world](assets/profile-banner.svg)
+![Brian Greeson — full-stack engineer building software for the real world](assets/profile-banner.png)
 
 <div align="center">
 
