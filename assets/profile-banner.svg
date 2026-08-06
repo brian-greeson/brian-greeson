@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Brian Greeson</title>
+  <desc id="desc">Full-stack engineer building geospatial products, connected devices, and software for the real world.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#10273a"/>
+      <stop offset="1" stop-color="#0c4b52"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#99f6e4" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#99f6e4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#99f6e4" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="360" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#sky)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <circle cx="995" cy="72" r="210" fill="url(#sun)"/>
+
+    <g fill="none" stroke="#5eead4" stroke-opacity=".13">
+      <path d="M650 46c72-31 130-22 190 5s130 24 210-13 133-25 190 10"/>
+      <path d="M626 72c79-36 147-29 212 3s134 28 217-10 145-28 207 9"/>
+      <path d="M611 100c88-42 160-35 229 0s142 33 230-8 153-30 218 11"/>
+      <path d="M598 130c91-43 170-40 244 0s149 36 239-5 160-29 226 16"/>
+    </g>
+
+    <path d="M0 322 120 226l65 44 88-93 88 94 86-65 85 58 89-103 96 106 82-57 73 50 95-100 88 101 105-74v173H0Z" fill="#09111e" opacity=".88"/>
+    <path d="m0 322 120-96 65 44 88-93 88 94 86-65 85 58 89-103 96 106 82-57 73 50 95-100 88 101 105-74" fill="none" stroke="#5eead4" stroke-opacity=".22"/>
+
+    <g transform="translate(940 42) scale(.9)">
+      <circle cx="112" cy="90" r="72" fill="#5eead4" opacity=".1" filter="url(#soft)"/>
+      <path d="M27 91c51-49 121-60 183-28-31 3-58 12-82 27-24-8-57-8-101 1Z" fill="url(#glow)" opacity=".95"/>
+      <path d="M27 91c31 1 66 7 101-1 27-16 52-24 82-27" fill="none" stroke="#d5fffa" stroke-opacity=".85"/>
+      <path d="M128 90 114 150m14-60 24 60m-38 0h38" fill="none" stroke="#d5fffa" stroke-width="1.5" stroke-opacity=".85"/>
+      <circle cx="133" cy="156" r="4" fill="#f8fafc"/>
+      <path d="M133 160c-8 10-11 19-9 27m9-27c7 9 10 18 8 27" fill="none" stroke="#f8fafc" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(72 82)">
+      <rect x="0" y="0" width="48" height="5" rx="2.5" fill="url(#glow)"/>
+      <text x="0" y="72" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="58" font-weight="750" letter-spacing="-2">Brian Greeson</text>
+      <text x="2" y="117" fill="#99f6e4" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="19" letter-spacing="2.2">FULL-STACK ENGINEER · PRODUCT BUILDER</text>
+      <text x="2" y="164" fill="#cbd5e1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22">Maps, connected devices, and software for the real world.</text>
+    </g>
+  </g>
+</svg>
